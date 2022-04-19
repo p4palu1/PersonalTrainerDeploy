@@ -1,0 +1,18 @@
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-inner {
+  overflow: visible;
+}
+.carousel-inner > .item {
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+  position: absolute;
+}
+.carousel-inner > .item {
+  transform: translate3d(0, 0, 0) !important;
+}
